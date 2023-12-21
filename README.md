@@ -1,4 +1,4 @@
-Geocoding with Google Maps API and Python
+# Geocoding with Google Maps API and Python
 Este proyecto permite obtener coordenadas de latitud y longitud para una lista de direcciones utilizando la API de Geocodificación de Google Maps en Python.
 
 Requisitos
@@ -15,10 +15,11 @@ pandas: Para manejar datos en formato tabular.
 openpyxl: Para leer y escribir archivos de Excel.
 Puedes instalar estas bibliotecas utilizando el siguiente comando:
 
-bash
-Copy code
-pip install requests pandas openpyxl
-Obtención de la Clave API de Google Maps
+  #bash
+  #Copy code
+  #pip install requests pandas openpyxl
+  
+#Obtención de la Clave API de Google Maps
 Para obtener una clave API:
 
 Visita Google Cloud Console.
@@ -27,15 +28,12 @@ Navega a la sección "Biblioteca", busca la "API de Geocodificación" y actíval
 Ve a "Credenciales" y crea una nueva clave API.
 Uso
 Para utilizar el script:
+  Asegúrate de que tus direcciones estén en un archivo Excel con las direcciones en una columna específica.
+  Configura tu clave API en el script.
+  Ejecuta el script con Python:
 
-Asegúrate de que tus direcciones estén en un archivo Excel con las direcciones en una columna específica.
-
-Configura tu clave API en el script.
-
-Ejecuta el script con Python:
-
-bash
-Copy code
-python geocode.py
-Script geocode.py
+  #bash
+  #Copy code
+  #python geocode.py
+  #Script geocode.py
 El script geocode.py lee direcciones de un archivo Excel, consulta la API de Geocodificación de Google Maps para obtener coordenadas y escribe estas coordenadas en el archivo Excel.
