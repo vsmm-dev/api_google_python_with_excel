@@ -1,10 +1,3 @@
-# Install python
-# pip install requests
-# pip install pandas
-# pip install openpyxl
-
-# python .\geocode.py
-
 import requests
 import pandas as pd
 
