@@ -1,6 +1,6 @@
 # Geocoding with Google Maps API and Python
 
-Este proyecto permite obtener coordenadas de latitud y longitud para una lista de direcciones utilizando la API de Geocodificación de Google Maps en Python.
+El script permite obtener coordenadas de latitud y longitud para una lista de direcciones utilizando la API de Geocodificación de Google Maps en Python.
 
 ## Requisitos
 
